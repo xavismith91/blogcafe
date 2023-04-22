@@ -87,3 +87,11 @@
         color: var(--blanco);
         margin-top: 5rem;
     }
+    
+    @media (min-width:768px)
+{
+    .barra{
+        display: flex;
+        
+    }
+}
