@@ -212,6 +212,6 @@ font-weight: normal;
 
 .footer {
     background-color: var(--negro);
-    padding-top: 4rem;
+    padding-bottom: 3rem;
+    margin-top: 4rem; 
 }
-
