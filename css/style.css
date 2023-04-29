@@ -222,14 +222,12 @@ font-weight: normal;
 
 @media (min-width:768px){
     .sobre-nosotros {
-        display: flex;
-        gap: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem; 
     }
 
-    .sobre-nosotros__imaqgen,
-    .sobre-nosotros__texto{
-        flex-basis: 50%;
-    }
+   
 
     
 }
