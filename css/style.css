@@ -306,7 +306,7 @@ font-weight: normal;
 
 .campo__field{
     flex: 1;
-    border: 1px solid var(--gris);
+    border: 1px solid var(--negro);
 }
 
 .campo__field--textarea{
