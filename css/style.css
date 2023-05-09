@@ -161,6 +161,7 @@
     text-transform: upercase;
     font-weight: 700;
     margin-bottom: 2rem;
+    border:none;
 }
 
 @media (min-width: 768px)
@@ -168,6 +169,10 @@
     .boton{
         display: inline-block;
     }
+}
+
+.boton:hover{
+    cursor: pointer
 }
 
 .boton--primario {
